@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    overflow-y: hidden;
+}
+
+body{
+    background-color: #f1f5f8;
+    /* line-height: 1.5; */
+}
+
+nav{
+    background-color: white;
+    height: 3rem;
+    display: grid;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.mainNav{
+    width: 90vw;
+    max-width: 620px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Eczar', serif;
+    /* border: 2mm ridge; */
+    border-radius: 5px;
+    /* box-shadow: 10px 5px black; */
+    font-size: 0;
+}
+
+ul{
+    /* overflow: hidden; */
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+.navLinks{
+    margin: 90px;
+}
+
+.navLinks li{   
+    font-size: 30px;
+}
+
+.navLinks li a{
+    text-decoration: none;
+    margin: 65px;
+}
+
+.simple{
+    margin-top: 12px;
+}
+
+.container{
+    width: 100vw;
+    height: 85.9vh;
+    text-align: center;
+    margin-top: 200px;
+}
+
+h2{
+    background-color: black;
+    color: white;
+    width: 35%;
+    display: grid;
+    margin-left: 495px;
+    border-radius: 10px;
+}
+
+.color{
+    color: antiquewhite;
+}
+
+
+.btn{
+    background-color: #f1f5f8;
+    border: 2px solid;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all 0.3s linear;
+}
+
